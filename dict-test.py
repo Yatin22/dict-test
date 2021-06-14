@@ -6,7 +6,7 @@ import tkinter.messagebox
 root = Tk()
 canvas = Canvas(root, width=500, height=600)
 root.title("Complete Dictionary of SEO")
-image = ImageTk.PhotoImage(Image.open("bgimage9.jpeg"))
+image = ImageTk.PhotoImage(Image.open("bgimage10.jpeg"))
 canvas.create_image(0, 0, anchor=NW, image=image)
 textin = StringVar()
 exlist={
